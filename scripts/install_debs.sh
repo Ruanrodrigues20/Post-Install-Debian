@@ -6,7 +6,7 @@ source scripts/core.sh
 install_dependencies(){
 	echo ""
 	echo -e "\e[1;34m===== 🔥 Installing Dependencies =====\e[0m"
-    dependencies=("pv" "git" "curl" "wget" "snap" "flatpak")
+    dependencies=("git" "curl" "wget" "snap" "flatpak")
     install "${dependencies[@]}"
 }
 

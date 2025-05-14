@@ -137,13 +137,15 @@ main() {
     ### 🛠️ System Preparation
     check_internet_connection
 
-    check_for_updates
-
     ### 📦 System Updates
     update
 
     ### 🧰 Install Dependencies
     install_dependencies
+
+    check_for_updates
+
+
 
     ### 💾 Software Installation
     install_debs
